@@ -1,0 +1,149 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<title>Login Page</title>
+	
+	<script src="https://kit.fontawesome.com/67ed40a65c.js" crossorigin="anonymous"></script>
+	
+		<style>
+		
+		
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: none;
+				
+				
+			}
+			
+			img{
+			
+			opacity: 1;
+			filter: alpha(opacity=50);
+			width:1334px;
+			height:778px;
+			object-fit: cover
+			}
+		
+			.header{
+			
+					font-family: Times New Roman;
+					font-weight: 550;
+					font-variant: small-caps;	
+					color: #f0ffff;					
+			
+			}
+			
+			.loginBox{
+				
+				width: 300px;
+				position: absolute;
+				top: 20%;
+				left:60%;
+				transform: translate(-50%, -50%)
+				border: 2px solid orange;
+				height:330px;
+				background-color: none;
+				padding:25px 35px;
+				border-radius: 25px;
+				opacity: 1;
+				
+				
+			}
+			
+			
+			.textBox{
+			
+				width: 250px;
+				overflow: hidden;
+				font-size: 20px;
+				margin: 10px 0px;
+				padding: 9px 0px;
+				border-bottom: 1px  solid #33CC00;
+				outline: none;
+				color: 	339933;
+				
+			}
+			
+			.textBox i{
+			
+				width: 20px;
+				float: left;
+				text-align: left
+				
+			}
+			
+			.textBox input{
+			
+				border: none;
+				outline: none;
+				background: none;
+				font-size: 17px;
+				width: 200px;
+				float: left;
+				margin: 0px 7px;
+				color: white
+			
+			}
+			
+			
+			.design input[type="button"]{
+				border:0;
+				background-color: white;
+				border: solid #00FFFF;
+				border-radius: 30px;
+				width: 75px;
+				text-align: center;
+				outline: none;
+				display: block;
+				transition: 0.35s;	
+				font-weight: bold;
+				font-color: black;
+				font-style: normal;
+			}
+			
+						
+			.design input[type="button"]:hover{
+				background-color:#00FFFF;
+				cursor: pointer;
+			}
+			
+		</style>
+	
+	
+</head>
+
+<body>
+
+	<img src="darkbg.jpg" >
+	
+		<div class="loginBox">
+		<h1 class = "header">Login</h1>
+		
+	
+		
+		<div class = "textBox">
+		<i class="fas fa-user" aria-hidden="true"></i>
+		<input type="text" name="Username" placeholder="Username" /> 
+		
+		</div> 
+		<br>
+		
+		<div class = "textBox">
+		<i class="fas fa-lock" aria-hidden="true"></i>
+		<input type="password" name="Password" placeholder="Password" /> 
+		</div> 
+		<br>
+		
+		<div class = "design">
+		<input type="button" name="Submit"  value="Sign In" onclick="Submit" /> 
+		</div>
+		<br>
+		</div>
+		
+ 
+
+</body>
+
+</html>
